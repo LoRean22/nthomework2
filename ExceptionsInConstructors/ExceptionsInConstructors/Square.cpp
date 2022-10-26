@@ -4,12 +4,12 @@
 
 Square::Square(int sideA, int sideB, int sideC, int sideD, int angleA, int angleB, int angleC, int angleD, std::string nameQuadrilateral) : Rhombus(sideA, sideB, sideC, sideD, angleA, angleB, angleC, angleD, nameQuadrilateral)
 {
-	if (sideA != sideC) throw Except("Стороны A и C не равны");
-	if (sideB != sideD) throw Except("Стороны B и D не равны");
-	if (angleA != 90) throw Except("Угол A не равен 90 градусов");
-	if (angleB != 90) throw Except("Угол B не равен 90 градусов");
-	if (angleC != 90) throw Except("Угол C не равен 90 градусов");
-	if (angleD != 90) throw Except("Угол D не равен 90 градусов");
+	if (sideA != sideC) throw Except("Г‘ГІГ®Г°Г®Г­Г» A ГЁ C Г­ГҐ Г°Г ГўГ­Г»");
+	if (sideB != sideD) throw Except("Г‘ГІГ®Г°Г®Г­Г» B ГЁ D Г­ГҐ Г°Г ГўГ­Г»");
+	if (angleA != 90) throw Except("Г“ГЈГ®Г« A Г­ГҐ Г°Г ГўГҐГ­ 90 ГЈГ°Г Г¤ГіГ±Г®Гў");
+	if (angleB != 90) throw Except("Г“ГЈГ®Г« B Г­ГҐ Г°Г ГўГҐГ­ 90 ГЈГ°Г Г¤ГіГ±Г®Гў");
+	if (angleC != 90) throw Except("Г“ГЈГ®Г« C Г­ГҐ Г°Г ГўГҐГ­ 90 ГЈГ°Г Г¤ГіГ±Г®Гў");
+	if (angleD != 90) throw Except("Г“ГЈГ®Г« D Г­ГҐ Г°Г ГўГҐГ­ 90 ГЈГ°Г Г¤ГіГ±Г®Гў");
 }
 
 void Square::print_sides()
@@ -21,7 +21,3 @@ void Square::print_angles()
 {
 	std::cout << "A = " << angleA << " B = " << angleB << " C = " << angleC << " D = " << angleD;
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
